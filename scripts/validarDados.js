@@ -11,7 +11,7 @@ else if(window.ActiveXObject) {
    req = new ActiveXObject("Microsoft.XMLHTTP");
 }
 // Aqui vai o valor e o nome do campo que pediu a requisição.
-var url = "validacao.php?campo="+campo+"&valor="+valor;
+var url = "scripts/validacao.php?campo="+campo+"&valor="+valor;
 // Chamada do método open para processar a requisição
 req.open("Get", url, true);
 // Quando o objeto recebe o retorno, chamamos a seguinte função;
