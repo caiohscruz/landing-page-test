@@ -10,50 +10,77 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="model.css">
     <link rel="stylesheet" href="styles.css">
     <script type="text/javascript" src="scripts/validarDados.js"></script>
     <title>SmartTV Samsung</title>
 </head>
 
-<body>
-    <main class="container">
-        <section>
+<body id="page-top">
+    <main>
+        <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top">Samsung T5300</a>
+                <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded"
+                    type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                                href="#register">Inscreva-se</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                                href="#plataform">Plataforma</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                                href="#hdr">Brilho e Contraste</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                                href="#resolution">Resolução</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
+                                href="#info">Ficha Técnica</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section id="begin" class="page-section">
             <img src="images/samsung-t5300.png" alt="Samsung T-5300 image">
             <h2>Resolução Full HD com nova plataforma Smart TV fácil e intuitiva</h2>
+        </section>
+        <section id="register" class="page-section">
             <p>Quer ficar por dentro das nossas ofertas? Informe abaixo seu e-mail e será notificado sempre que
                 surgirem ofertas deste produto.</p>
             <input type="text" id="email" placeholder="Informe seu melhor e-mail" class="form-control">
             <div id="campo_email"> </div>
             <button class="btn btn-secondary" id="submitButton">Inscrever-se</button>
-
         </section>
-        <section>
+        <section id="plataform" class="page-section">
             <h2>A melhor plataforma SmartTV</h2>
-            <p>Sua Smart TV¹ com conteúdos ainda mais fáceis de acessar</p>
+            <p>Sua Smart TV com conteúdos ainda mais fáceis de acessar</p>
             <p>Acesse suas músicas, filmes, notícias, jogos e redes sociais tudo em uma única tela, com o sistema
                 operacional TIZEN.</p>
             <img src="images/plataform.png" alt="Operational system">
         </section>
-        <section>
+        <section id="hdr" class="page-section">
             <h2>HDR para brilho e contraste</h2>
             <p>Veja os detalhes em cenas claras ou escuras</p>
             <p>Brilho e contraste para você aproveitar seu programa tanto nas cenas mais escuras quanto nas de alta
                 luminosidade.</p>
-                <div>
-                    <img src="images/sdr-example.PNG" alt="SDR demonstration" >
-                    <img src="images/hdr-example.png" alt="HDR demonstration" >
-                </div>
+            <div>
+                <img src="images/sdr-example.PNG" alt="SDR demonstration">
+                <img src="images/hdr-example.png" alt="HDR demonstration">
+            </div>
         </section>
-        <section>
+        <section id="resolution" class="page-section">
             <h2>Resolução Full HD</h2>
             <p>Aproveite seus programas em uma resolução 2 vezes maior que as TVs HDs.</p>
             <p>Imagens realistas para você assistir seus filmes e séries preferidas.</p>
             <div>
-                <img src="images/hd-example.png" alt="HD demonstration" >
-                <img src="images/fhd-example.PNG" alt="FHD demonstration" >
+                <img src="images/hd-example.png" alt="HD demonstration">
+                <img src="images/fhd-example.PNG" alt="FHD demonstration">
             </div>
         </section>
-        <section>
+        <section id="info" class="page-section">
             <h2>Ficha técnica</h2>
             <table class="table table-hover">
                 <tr>
@@ -194,5 +221,7 @@
     </main>
 </body>
 <script type="text/javascript" src="scripts/clickEvent.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="scripts/navbar.js"></script>
 
 </html>
