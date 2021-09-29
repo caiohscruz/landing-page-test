@@ -1,3 +1,5 @@
+![](https://github.com/caiohscruz/landing-page-test/blob/master/images/landing-page.gif?raw=true)
+
 # Projeto
 
 Elaborar uma landing page responsiva para anúncio de uma Smart TV LED Samsung com um campo de texto para o visitante cadastrar o e-mail e receber promoções.
