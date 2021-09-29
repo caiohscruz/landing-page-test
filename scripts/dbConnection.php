@@ -1,9 +1,11 @@
 <?php
 
-$hostname = 'wcwimj6zu5aaddlj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306';
-$db_name = 'niuua1wnu2x7wzm8';
-$username = 'e08fago65v13kd63';
-$password = 'dg743ypfddnqftq3';
+$connString = getenv("JAWSDB_URL");
+
+$username= substr($connString, 8, 16);
+$password = substr($connString, 25, 16);
+$hostname = substr($connString, 42, 62);
+$db_name = substr($connString, -16, 16);
 
 try{
     $mysql = new mysqli($hostname, $username, $password, $db_name);
