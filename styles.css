@@ -2,17 +2,20 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
-.container{
+main{
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 100%;
+}
+
+.begin{
+    margin-top: 3vh;
 }
 
 section{
     text-align: center;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
 }
+
 form{
     margin: 5vh;
 }
@@ -31,5 +34,10 @@ img{
 }
 
 div img {
-    width: clamp(40%, 25rem, 100%)
+    width: clamp(40%, 25rem, 100%);
+}
+
+input{
+    max-width: 90%;
+    margin: auto;
 }
