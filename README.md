@@ -8,7 +8,7 @@ Elaborar uma landing page responsiva para anúncio de uma Smart TV LED Samsung c
 
 Utilizando AJAX, fazer a validação do e-mail. Caso não seja válido, exibir uma mensagem pedindo pra entrar com um email válido. E caso seja válido, cadastrar num banco de dados MySQL (também por AJAX).
 
-Fazer também uma página onde os e-mails cadastrados possam ser visualizados (Conferir [Repositório](https://github.com/caiohscruz/landing-page-test-list-emails) e [Deploy](https://list-emails-smart-tv-samsung.herokuapp.com/)).
+Fazer também uma página onde os e-mails cadastrados possam ser visualizados (Para este item especificamente, conferir [Repositório](https://github.com/caiohscruz/landing-page-test-list-emails) e [Deploy](https://list-emails-smart-tv-samsung.herokuapp.com/)).
 
 
 ## Aprendizados
